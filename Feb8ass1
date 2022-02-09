@@ -1,0 +1,3 @@
+a=int(input('enter value in kilometers'))
+b=100000*a
+print('kilometer is equal to centimeters',b)
