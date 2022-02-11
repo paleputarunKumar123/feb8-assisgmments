@@ -1,0 +1,23 @@
+sno=int(input('enter student no:'))
+sname=input('enter student name:')
+sgroup=input('enter student group:')
+s1=int(input('maths marks:'))
+s2=int(input('statistics marks:'))
+s3=int(input('computer science marks:'))
+s4=int(input('telugu marks:'))
+s5=int(input('english marks'))
+s6=int(input('online business marks'))
+total=s1+s2+s3+s4+s5+s6
+avg=(s1+s2+s3+s4+s5+s6)/6
+if avg>91:
+    print('o grade,passed')
+elif avg>81:
+    print('a grade,passed')
+elif avg>71:
+    print('b grade,passed')
+elif avg>61:
+    print('c grade,passed')
+elif avg>51:
+    print('d grade,passed')
+else:
+    print(sname,'is failed')
