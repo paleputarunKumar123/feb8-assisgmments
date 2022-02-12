@@ -1,0 +1,11 @@
+n=int(input('enter value'))
+If(n%2=1):
+      Print('Weird')
+elif(n>=2 and n<=5):
+     Print('Not Weird')
+elif(n>=6 and n<=20):
+     Print('Weird')
+elif(n>20):
+     Print('Not Weird')
+else:
+         Print(' Weird')
