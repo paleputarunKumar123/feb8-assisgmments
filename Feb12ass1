@@ -1,0 +1,25 @@
+print('                   OUR STORE')
+oilpackets=int(input('enter oil quantity'))
+surf=int(input('enter surf quantity'))
+soaps=int(input('enter soaps'))
+rice =int(input('enter rice quantity'))
+bill=(oilpackets*150)+(surf*250)+(soaps*70)+(rice*100)
+print('General bill :',bill)
+if bill>5000:
+    discount=bill*10/100
+    tax=bill*10/100 
+elif bill>3000:
+    discount=bill*8/100
+    tax=bill*10/100
+elif bill>2000:
+    discount=bill*5/100
+    tax=bill*18/100
+elif bill>1000:
+    discount=bill*3/100
+    tax=bill*18/100
+tb=tax+bill
+print('WITH TAX',tb)
+print('your discount',discount)
+db=tb-discount
+print('YOUR BILL',db)
+print('                 HAVE A NICE DAY')
